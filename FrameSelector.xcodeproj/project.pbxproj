@@ -13,6 +13,7 @@
 		A9E702761F40119F00538A2B /* FrameSelector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9E702741F40119F00538A2B /* FrameSelector.xcdatamodeld */; };
 		A9E702781F40119F00538A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E702771F40119F00538A2B /* Assets.xcassets */; };
 		A9E7027B1F40119F00538A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E702791F40119F00538A2B /* LaunchScreen.storyboard */; };
+		A9E702831F40154E00538A2B /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E702821F40154E00538A2B /* FrameExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A9E702771F40119F00538A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9E7027A1F40119F00538A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9E7027C1F40119F00538A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E702821F40154E00538A2B /* FrameExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A9E702791F40119F00538A2B /* LaunchScreen.storyboard */,
 				A9E7027C1F40119F00538A2B /* Info.plist */,
 				A9E702741F40119F00538A2B /* FrameSelector.xcdatamodeld */,
+				A9E702821F40154E00538A2B /* FrameExtractor.swift */,
 			);
 			path = FrameSelector;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				A9E702761F40119F00538A2B /* FrameSelector.xcdatamodeld in Sources */,
 				A9E702701F40119F00538A2B /* ViewController.swift in Sources */,
+				A9E702831F40154E00538A2B /* FrameExtractor.swift in Sources */,
 				A9E7026E1F40119F00538A2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
