@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // print to console for debugging purposes
+        print("loaded ViewController")
+        
+        
+        // Will have to use the FrameExtractor class here, and create an object
+        // to handle frame extraction.
+        // After that, can do whatever we want with the frames
     }
 
     override func didReceiveMemoryWarning() {

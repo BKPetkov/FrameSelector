@@ -25,8 +25,10 @@ class FrameExtractor: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     weak var delegate: FrameExtractorDelegate?
     
+    
     override init() {
         super.init()
+        print("testing")
         checkPermission()
         sessionQueue.async { [unowned self] in
             self.configureSession()
